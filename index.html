@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Login Pedalar</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="website icon" type="png" href="LOGOPDL1.png"> <!--adicionar logo web-->
+</head>
+<body>
+    <main class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="login"
+                    placeholder="Entre com e-mail">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="senha"
+                    placeholder="Digite sua senha">
+                <div class="underline"></div>
+            </div>
+
+            <input type="submit" value="Continue" onclick="logar(); return false">
+        </form>
+
+        <div class="footer">
+            <span>Connect a Mídia Social</span>
+            <div class="social-fields">
+                <div class="social-field twitter">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        Entrar com o Google
+                    </a>
+                </div>
+                <div class="social-field facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        Entrar com o Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function logar(){
+        
+        var Login = document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
+        
+        if(Login == "admim" && senha == "admim"){
+            alert('Sucesso');
+            location.href = "assets/pedalarsite.html";
+        }else{
+            alert('Usuario ou senha incorreto');
+        }  
+    }
+
+    </script>
+</body>
+</html>

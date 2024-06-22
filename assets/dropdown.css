@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #FA6900;
+    
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav li a:hover{
+    background-color: #1A9F5F;
+}
+
+.dropdown-menu{
+    background-color: #263F6B;
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}

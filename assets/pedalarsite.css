@@ -1,0 +1,850 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FA6900;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+    display: flex;
+    height: 600px;
+    width: 1480px;
+    object-fit: cover;
+}
+
+.dropdown-menu {
+    background-color: #263F6B;
+    position: absolute;
+    box-shadow: 0 0 3px black;
+    display: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.redes-g {
+    align-items: center;
+}
+
+.redes-g a {
+    display: flex;
+    align-items: center;
+}
+
+.sentinha1 {
+    cursor: pointer;
+}
+
+.quadrado1 {
+    background-color: #ffffff;
+    border-radius: 3rem;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    height: 35.0rem;
+    left: 37.3rem;
+    padding: 0.0rem 5.0rem 5.0rem 5.0rem;
+
+    top: 33.5rem;
+    width: 40.2112rem;
+
+    .gpalavraq {
+      align-items: center;
+      border-radius: 5rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+
+      .gpalavraqbaixo {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        padding: 0rem 1.527rem 2.3rem 1.4rem;
+        width: 100%;
+
+        .bem-vindo-ao-pedalar {
+          color: #000000;
+          flex-shrink: 0;
+          font-family: Amaranth, 'Source Sans Pro';
+          font-size: 3.2rem;
+          font-weight: 400;
+          line-height: 1.2025;
+          margin-bottom: 1.4rem;
+          white-space: nowrap;
+        }
+        .a-cada-pedalada {
+          color: #888883;
+          flex-shrink: 0;
+          font-family: Amaranth, 'Source Sans Pro';
+          font-size: 2.1rem;
+          font-weight: 400;
+          line-height: 1.2025;
+          margin-right: 0.7rem;
+          max-width: 29.9rem;
+        }
+      }
+      .borda-retanguloq {
+        border-radius: 5rem;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        flex-shrink: 0;
+        height: 6.4468rem;
+        width: 100%;
+
+        .retanguloq {
+          cursor: pointer;
+          align-items: center;
+          background-color: #fa6900;
+          border-radius: 5rem;
+          color: #ffffff;
+          display: flex;
+          font-family: Amaranth, 'Source Sans Pro';
+          font-size: 2rem;
+          font-weight: 400;
+          height: 100%;
+          justify-content: center;
+          line-height: 1.2025;
+          white-space: nowrap;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .borda-setinha {
+    cursor: pointer;
+    border: solid 0.1rem #fa6900;
+    border-radius: 5rem;
+    box-sizing: border-box;
+    height: 4.3rem;
+    left: 10rem;
+    position: absolute;
+    top: 5.4rem;
+    width: 7.4rem;
+  }
+.complemento-voce-enfrenta-o-transito {
+  align-items: baseline;
+  color: #000000;
+  display: flex;
+  font-family: Amaranth, 'Source Sans Pro';
+  font-size: 4.8rem;
+  font-weight: 400;
+  height: 5.8rem;
+  left: 92.6rem;
+  line-height: 1.2029999097;
+  position: absolute;
+  top: 100.4rem;
+  white-space: nowrap;
+  width: 92.4rem;
+
+  .voce-enfrenta-o-transito {
+    color: #000000;
+    font-family: Amaranth, 'Source Sans Pro';
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.2025;
+  }
+  .eu-enfrento-o-vento {
+    color: #fa6900;
+    font-family: Amaranth, 'Source Sans Pro';
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.1000;
+  }
+}
+.g3retangulob {
+  align-items: center;
+  display: flex;
+  height: 19.9rem;
+  left: 79.2rem;
+  position: absolute;
+  top: 118.8rem;
+  width: 113.6rem;
+
+  .retangulob1 {
+    background-color: #fa6900;
+    border-radius: 5rem;
+    flex-shrink: 0;
+    height: 4.3rem;
+    margin-right: 7.5rem;
+    width: 11.5rem;
+  }
+  .retangulob2 {
+    background-color: #1b03fd;
+    border-radius: 5rem;
+    flex-shrink: 0;
+    height: 4.3rem;
+    margin-right: 12.4rem;
+    width: 11.5rem;
+  }
+  .retangulob3 {
+    background-color: #1b03fd;
+    border-radius: 5rem;
+    flex-shrink: 0;
+    height: 4.3rem;
+    width: 70.7rem;
+  }
+}
+
+.PEDALAR-PAG2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+flex-direction: column;
+overflow: hidden;
+position: relative;
+width: 100%;
+
+.larguracima {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 70.44rem;
+  margin: 0rem 29rem 6.327rem 18.3rem;
+  width: calc(100% - 47.3rem);
+
+  .gvenha-conhecer-nosso-app {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 60%;
+    margin-right: 11.2936rem;
+    padding: 0rem 13.2rem 0rem 17.50rem;
+    width: 128.2rem;
+
+    .posição-img {
+      align-items: center;
+      display: flex;
+      height: 0%;
+        width: 0%;
+
+      #g-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .IMG-1 {
+        background-size: 100% 100%;
+        flex-shrink: 0;
+        height: 36.1298rem;
+        margin: 0rem 0.396rem 5.31rem 0rem;
+        position: relative;
+        width: 16.845rem;
+      }
+      .IMG-2 {
+        background-size: 100% 100%;
+        flex-shrink: 0;
+        height: 36.1298rem;
+        margin: 0rem 0.396rem 0rem 0rem;
+        position: relative;
+        width: 16.845rem;
+      }
+      .IMG-3 {
+        background-size: 100% 100%;
+        flex-shrink: 0;
+        height: 36.1298rem;
+        margin-top: 5.3102rem;
+        position: relative;
+        width: 16.845rem;
+      }
+    }
+  }
+  .posição-retangulo-baixe-o-app {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: calc(100% - 35.54rem);
+    margin: 4.567rem 0rem 5.973rem 0rem;
+    width: 52.5rem;
+
+    .frase1 {
+      color: #000000;
+      flex-shrink: 0;
+      font-family: Amaranth, 'Source Sans Pro';
+      font-size: 4.5rem;
+      font-weight: 400;
+      line-height: 1.2025;
+      margin-bottom: 11rem;
+      max-width: 52.5rem;
+    }
+    .frase2 {
+      cursor: pointer;
+      align-items: center;
+      background-color: #1b03fd;
+      border-radius: 3rem;
+      box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+      color: #ffffff;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Amaranth, 'Source Sans Pro';
+      font-size: 2.7rem;
+      font-weight: 400;
+      height: 9rem;
+      justify-content: center;
+      line-height: 1.2025;
+      margin: 0rem 3.4rem 0rem 3.8rem;
+      white-space: nowrap;
+      width: calc(100% - 7.2rem);
+    }
+  }
+}
+.retangulobaixo2 {
+  align-items: center;
+  background-color: #fa6900;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 72.0rem;
+  width: 100%;
+
+  .gletrasbaixo2 {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 6.1rem 25rem 6.4rem 25rem;
+    width: 100%;
+
+    .gposicaoletras2 {
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      margin: 0rem 12.6rem 4.9rem 30rem;
+      width: calc(100% - 15.6rem);
+
+      .equipes {
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 4.5rem;
+        font-weight: 400;
+        left: 200.7rem;
+        line-height: 1.100;
+        margin-right: 105.4rem;
+        white-space: nowrap;
+      }
+      .ciclovias-faixa-rotas {
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 4.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        margin-right: 120.2rem;
+        white-space: nowrap;
+      }
+    }
+    .gmover-nova-ciclo-faixa {
+      align-items: flex-start;
+      display: flex;
+      flex-shrink: 0;
+      margin-bottom: 1.4rem;
+      width: 80%;
+
+      .retangulo-de-selecao {
+        align-items: center;
+        border: solid 0.1rem #000000;
+        border-radius: 9rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-shrink: 0;
+        margin: 0rem 90.1rem 3.7rem 0rem;
+        padding: 1.6rem 5.9rem 0.9rem 5.6rem;
+
+        .cadastrar {
+          cursor: pointer;
+          color: #000000;
+          flex-shrink: 0;
+          font-family: Amaranth, 'Source Sans Pro';
+          font-size: 3rem;
+          font-weight: 400;
+          line-height: 1.200;
+          white-space: nowrap;
+        }
+      }
+      .acompanhe-onde-esta-sendo-criado {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 1.200;
+        margin: 0.1rem 10.6rem 0rem 9rem;
+        max-width: 47.6rem;
+      }
+    }
+    .gmover-lista-de-equipes {
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      margin: 0rem 25.0rem 4.8rem 0rem;
+
+      .lista-de-equipes {
+        cursor: pointer;
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        margin: 5.0rem 125.0rem 0rem 0rem;
+        white-space: nowrap;
+      }
+    }
+    .gmover-acompanhar {
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      height: 9rem;
+      margin: -5rem 2.3rem 9rem 0.0rem;
+      width: calc(65% - 7rem);
+
+      .gmover-acompanhar-muito {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-shrink: 0;
+        height: 100%;
+        padding: 0.0rem 94.0rem 5.9rem 9rem;
+
+      }
+      .retangulo-acompanhar {
+        cursor: pointer;
+        align-items: center;
+        background-color: #1b03fd;
+        border-radius: 3rem;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        color: #ffffff;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.7rem;
+        font-weight: 400;
+        height: 100%;
+        justify-content: center;
+        line-height: 1.2025;
+        white-space: nowrap;
+        width: 45.3rem;
+      }
+    }
+  }
+}
+}
+
+.PEDALAR-PAG3 {
+align-items: center;
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+position: relative;
+width: 100%;
+
+.linhacima {
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+  height: 0.7rem;
+  margin-bottom: 9.2rem;
+  width: 100%;
+}
+.a-cultura-da-bicicleta-se-transforma-a-cada-pedalada {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Amaranth, 'Source Sans Pro';
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.2025;
+  margin: 0rem 0rem 7.9rem 0.1rem;
+  white-space: nowrap;
+}
+.contatos {
+  color: #fa6900;
+  flex-shrink: 0;
+  font-family: Amaranth, 'Source Sans Pro';
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  margin-left: 0.1rem;
+  white-space: nowrap;
+}
+.gmover-selecoes {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 5.5rem 38.397rem 10rem 29.4rem;
+  width: 68%;
+
+  .gmover-leve-selecoes {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 11rem;
+    margin: 0rem 0rem 2.1rem 3rem;
+    width: calc(100% - 3rem);
+
+    .retangulo-de-selecao3 {
+      align-items: center;
+      background-color: #fa6900;
+      border-radius: 5rem;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      height: 100%;
+      padding: 2.4rem 3.598rem 2.8rem 3.498rem;
+      width: 20.3rem;
+
+      .e-mail {
+        cursor: pointer;
+        color: #ffffff;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin: 0rem 1.1rem 2rem 0rem;
+        white-space: nowrap;
+      }
+      .linha-email {
+        cursor: pointer;
+        background-color: #ffffff;
+        flex-shrink: 0;
+        height: 0.1rem;
+        width: 100%;
+      }
+    }
+    .gmover-in-insta-face {
+      align-items: center;
+      box-sizing: border-box;
+      display: flex;
+      flex-shrink: 0;
+      height: 100%;
+      padding: 2.4rem 0rem 2.8rem 9rem;
+
+      .linkedin-e-linha {
+        cursor: pointer;
+        border-bottom: solid 0.1rem #b3b3b3;
+        box-sizing: border-box;
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 3rem;
+        font-weight: 400;
+        height: 100%;
+        line-height: 1.2125;
+        margin-right: 14.9966rem;
+        padding: 0rem 0.903rem 0rem 0.5rem;
+        white-space: nowrap;
+      }
+      .instagram-e-linha {
+        cursor: pointer;
+        border-bottom: solid 0.1rem #b3b3b3;
+        box-sizing: border-box;
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 3rem;
+        font-weight: 400;
+        height: 100%;
+        line-height: 1.2125;
+        margin-right: 16.2rem;
+        white-space: nowrap;
+      }
+      .facebook-e-linha {
+        cursor: pointer;
+        border-bottom: solid 0.1rem #b3b3b3;
+        box-sizing: border-box;
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 3rem;
+        font-weight: 400;
+        height: 100%;
+        line-height: 1.2125;
+        white-space: nowrap;
+        width: 14.1034rem;
+      }
+    }
+  }
+  .gmail-do-pedalar {
+    color: #b3b3b3;
+    flex-shrink: 0;
+    font-family: Amaranth, 'Source Sans Pro';
+    font-size: 2.7rem;
+    font-weight: 400;
+    line-height: 1.2025;
+    margin: 0rem 80.203rem 3.9rem 0rem;
+    white-space: nowrap;
+  }
+  .tamanho-pag-baixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 23rem;
+    margin-left: 2rem;
+    position: relative;
+    width: 2rem;
+    
+    #map {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 600px;
+      height: 500px;
+      background-color: #000000;
+    }
+
+    #map iframe {
+      height: 100%;
+      width: 100%;
+      flex: 1.45rem
+    }
+
+  }
+}
+}
+
+.PEDALAR-PAG4 {
+align-items: center;
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+position: relative;
+width: 100%;
+
+.linhacima4 {
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+  height: 0.7rem;
+  margin-bottom: 5.2rem;
+  width: 100%;
+}
+.nossos-parceiros {
+  color: #fa6900;
+  flex-shrink: 0;
+  font-family: Amaranth, 'Source Sans Pro';
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.2025;
+  margin: 0rem 110.2rem 3.1rem 0rem;
+  white-space: nowrap;
+}
+.venha-conosco-torna-a-cidade-mais-sustentvel {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Amaranth, 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2025;
+  margin: 0rem 85.2rem 9.3rem 0rem;
+  white-space: nowrap;
+}
+
+.retangulo-baixo-metade {
+  align-items: center;
+  background-color: #1e1e1e;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 4.6rem 14.598rem 5.85rem 14.598rem;
+  width: 100%;
+
+  .pedalar-frase {
+    color: #fa6900;
+    flex-shrink: 0;
+    font-family: Amaranth, 'Source Sans Pro';
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 3.2000;
+    margin: 0rem 153.1rem 1.5rem 0rem;
+    white-space: nowrap;
+  }
+  .gmover-selecoes-e-baixar {
+    align-items: flex-start;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 15.202rem 2.3rem 27.2rem;
+    width: calc(100% - 29.7042rem);
+
+    .gmover-selecoes-e-baixar-muito {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      margin: 1.5rem 18.2rem 0rem 0rem;
+      row-gap: 3.4rem;
+
+      .sobre-nos {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+      .condicoes-geral-de-uso {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+      .politica-de-privacidade {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+      .fale-com-a-gente {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+    }
+    .espaco-letras {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      margin: 1.5rem 92.2rem 0rem 0rem;
+      row-gap: 3.4rem;
+
+      .relacao-de-investidores {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+      .patrocinadores {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+      .trabalhe-conosco {
+        cursor: pointer;
+        color: #f5f5f5;
+        flex-shrink: 0;
+        font-family: Amaranth, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2025;
+        white-space: nowrap;
+      }
+    }
+    .logo-baixar-lojas {
+      cursor: pointer;
+      flex-shrink: 0;
+      height: 22rem;
+      object-fit: cover;
+      vertical-align: top;
+      width: 18.1rem;
+    }
+  }
+  .gmover-redes-sociais {
+    align-items: flex-start;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0rem 0rem 3.45rem 43rem;
+
+    .e-mail-pedalaintgmailcom {
+      color: #fa6900;
+      flex-shrink: 0;
+      font-family: Amaranth, 'Source Sans Pro';
+      font-size: 2.7rem;
+      font-weight: 400;
+      line-height: 1.2025;
+      margin: 1.6rem 18.8rem 0rem 0rem;
+      white-space: nowrap;
+    }
+    .logo-mini-linkedin {
+      cursor: pointer;
+      flex-shrink: 0;
+      height: 4.1rem;
+      margin-right: 2.7rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 4.3rem;
+    }
+    .logo-mini-instagram {
+      cursor: pointer;
+      flex-shrink: 0;
+      height: 4.1rem;
+      margin-right: 2.5rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 4.3rem;
+    }
+    .logo-mini-facebook {
+      cursor: pointer;
+      flex-shrink: 0;
+      height: 4.1rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 4.2rem;
+    }
+  }
+  .linha-pag4 {
+    background-color: #aaa5a5;
+    flex-shrink: 0;
+    height: 0.1rem;
+    width: 100%;
+  }
+}
+}
